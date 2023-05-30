@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imbue:wght@300&display=swap');
+
+body{
+    justify-content: center;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+
+.tudo{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  
+   }
+   .h1{
+    font-family: 'Playfair', serif;
+   }
+   .p{
+    font-family: 'Imbue', serif;
+    font-size: 20px;
+    background-color: rgb(168, 237, 237);
+    color: #000000;
+   }
+   
+    .button {
+      display: inline-block;
+      align-items: center;
+      border-radius: 7rem;
+      color: #000000;
+      text-transform: uppercase;
+      letter-spacing: .15rem;
+      position: relative;
+      
+    }
